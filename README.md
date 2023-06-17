@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![DOI](https://zenodo.org/badge/379767139.svg)](https://zenodo.org/badge/latestdoi/379767139)
-[![.github/workflows/basic_checks.yaml](https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023/workflows/.github/workflows/basic_checks.yaml/badge.svg)](https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023/actions) 	
+[![.github/workflows/basic_checks.yaml](https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/workflows/.github/workflows/basic_checks.yaml/badge.svg)](https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/actions) 	
 <!-- badges: end -->
 
 <p float="left">
@@ -16,7 +16,7 @@
 
 ## Syllabus
 
-Material [web page](https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop_bioc2023/).
+Material [web page](https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/).
 
 More details on the workshop are below.
 
@@ -39,14 +39,14 @@ BiocManager::install("satijalab/seurat-wrappers")
           
 # Install workshop package
 
-remotes::install_github("tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023", build_vignettes = TRUE)
+remotes::install_github("tidy-biology/TidyGenomicsTranscriptomicsWorkshop", build_vignettes = TRUE)
 
 # To view vignettes
-library(TidyGenomicsTranscriptomicsWorkshopBioc2023)
-browseVignettes("TidyGenomicsTranscriptomicsWorkshopBioc2023")
+library(TidyGenomicsTranscriptomicsWorkshop)
+browseVignettes("TidyGenomicsTranscriptomicsWorkshop")
 ```
 
-To run the code, you could then copy and paste the code from the workshop vignette or [R markdown file](https://raw.githubusercontent.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023/master/vignettes/tidytranscriptomics.Rmd) into a new R Markdown file on your computer.
+To run the code, you could then copy and paste the code from the workshop vignette or [R markdown file](https://raw.githubusercontent.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/master/vignettes/tidytranscriptomics.Rmd) into a new R Markdown file on your computer.
 
 ## Workshop Description
 

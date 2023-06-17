@@ -1,4 +1,4 @@
-Package: TidyGenomicsTranscriptomicsWorkshopBioc2023
+Package: TidyGenomicsTranscriptomicsWorkshop
 Title: Tidy genomic and transcriptomic analyses 
 Version: 2.0.0
 Authors@R: 
@@ -60,7 +60,7 @@ Suggests:
     knitr,
     rmarkdown,
     pkgdown
-URL: https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop_bioc2023
-BugReports: https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023/issues/new/choose
+URL: https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop
+BugReports: https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: ghcr.io/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023:latest
+DockerImage: ghcr.io/tidy-biology/TidyGenomicsTranscriptomicsWorkshop:latest
