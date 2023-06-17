@@ -4,7 +4,7 @@ author:
   - Maria Doyle, Peter MacCallum Cancer Centre^[<maria.doyle at petermac.org>]
   - Stefano Mangiola, Walter and Eliza Hall Institute^[<mangiola.s at wehi.edu.au>]
 output: rmarkdown::html_vignette
-bibliography: "`r file.path(system.file(package='RMedicine2023tidytranscriptomics', 'vignettes'), 'tidytranscriptomics.bib')`"
+bibliography: "`r file.path(system.file(package='TidyGenomicsTranscriptomicsWorkshopBioc2023', 'vignettes'), 'tidytranscriptomics.bib')`"
 vignette: >
   %\VignetteIndexEntry{Tidy Transcriptomics for Single-cell RNA Sequencing Analyses}
   %\VignetteEngine{knitr::rmarkdown}
@@ -38,16 +38,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Local
 
-We will use the Cloud during the workshop and this method is available if you want to run the material after the workshop. If you want to install on your own computer, see instructions [here](https://tidytranscriptomics-workshops.github.io/RMedicine2023_tidytranscriptomics/index.html#workshop-package-installation).
+We will use the Cloud during the workshop and this method is available if you want to run the material after the workshop. If you want to install on your own computer, see instructions [here](https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop_bioc2023/index.html#workshop-package-installation).
 
-Alternatively, you can view the material at the workshop webpage [here](https://tidytranscriptomics-workshops.github.io/RMedicine2023_tidytranscriptomics/articles/main.html).
+Alternatively, you can view the material at the workshop webpage [here](https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop_bioc2023/articles/main.html).
 
 ## Introduction to tidytranscriptomics
 
-[Here](https://docs.google.com/gview?url=https://raw.githubusercontent.com/tidytranscriptomics-workshops/LoveMangiola2022_tidytranscriptomics/master/inst/LoveMangiola2022_tidytranscriptomics.pdf)
+[Here](https://docs.google.com/gview?url=https://raw.githubusercontent.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023/master/inst/tidytranscriptomics_slides.pdf)
 
 <iframe 
-src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/tidytranscriptomics-workshops/RMedicine2023_tidytranscriptomics/master/inst/RMedicine2023_tidytranscriptomics.pdf&embedded=true" 
+src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023/master/inst/tidytranscriptomics_slides.pdf&embedded=true" 
 scrolling="yes" 
 style="width:100%; height:600px;" 
 frameborder="0">
@@ -74,7 +74,7 @@ Here we load single-cell data in Seurat object format. This data is peripheral b
 
 ```{r}
 # load single cell RNA sequencing data
-seurat_obj <- RMedicine2023tidytranscriptomics::seurat_obj
+seurat_obj <- TidyGenomicsTranscriptomicsWorkshopBioc2023::seurat_obj
 
 # take a look
 seurat_obj
@@ -288,7 +288,7 @@ seurat_obj |>
 	ggplot(aes(UMAP_1, UMAP_2, color = signature_score)) +
 	geom_point(size=0.5) +
 	scale_color_distiller(palette = "Spectral") +
-	RMedicine2023tidytranscriptomics::theme_multipanel
+	TidyGenomicsTranscriptomicsWorkshopBioc2023::theme_multipanel
 ```
 
 #### Filtering based on gate
@@ -418,7 +418,7 @@ single_cell_object |>
 We'll demonstrate creating a 3D plot using some data that has 3 UMAP dimensions.
 
 ```{r umap plot 2, message = FALSE, warning = FALSE, fig.width=8, fig.height=8}
-seurat_obj_UMAP3 <- RMedicine2023tidytranscriptomics::seurat_obj_UMAP3
+seurat_obj_UMAP3 <- TidyGenomicsTranscriptomicsWorkshopBioc2023::seurat_obj_UMAP3
 
 # Look at the object
 seurat_obj_UMAP3 |> select(contains("UMAP"), everything())
@@ -734,7 +734,7 @@ pseudo_bulk_nested =
 			scale_y_log10() +
 			facet_wrap(~.feature, ncol = 3) +
 			ggtitle(.y) +
-			RMedicine2023tidytranscriptomics::theme_multipanel
+			TidyGenomicsTranscriptomicsWorkshopBioc2023::theme_multipanel
 	)) 
 
 pseudo_bulk_nested
