@@ -1,4 +1,4 @@
-Package: TidyGenomicsTranscriptomicsWorkshop
+Package: TidyGenomicsTranscriptomicsWorkshopBioc2023
 Title: Tidy genomic and transcriptomic analyses 
 Version: 2.0.0
 Authors@R: 
@@ -20,14 +20,47 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.2.3
 Depends:
-    Biobase
+    Biobase,
+    R (>= 4.2.0)
+Remotes: 
+  satijalab/seurat-wrappers
+Imports:
+  SummarizedExperiment, 
+  SingleCellExperiment,
+  tidySingleCellExperiment,
+  tidyseurat,
+  tidygate,
+  Seurat,
+  stats,
+  utils,
+  tibble,
+  stringr,
+  ggplot2,
+  dplyr,
+  readr,
+  tidyr,
+  purrr,
+  forcats,
+  ggrepel,
+  plotly,
+  igraph,
+  broom,
+  devtools,
+  rlang,
+  magrittr,
+  R.utils,
+  dittoSeq,
+  tidybulk,
+  tidySummarizedExperiment,
+  glue,
+  SeuratWrappers
 Suggests:
     knitr,
     rmarkdown,
     pkgdown
-URL: https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop
-BugReports: https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/issues/new/choose
+URL: https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop_bioc2023
+BugReports: https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: ghcr.io/tidy-biology/tidygenomicstranscriptomicsworkshop:latest
+DockerImage: ghcr.io/tidy-biology/TidyGenomicsTranscriptomicsWorkshop_bioc2023:latest
