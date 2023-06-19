@@ -29,8 +29,9 @@ Remotes:
 Imports:
   SummarizedExperiment, 
   SingleCellExperiment,
-  tidySingleCellExperiment,
-  tidyseurat,
+  tidySummarizedExperiment (>= 1.9.6),
+  tidySingleCellExperiment (>= 1.11.1),
+  tidyseurat (>= 0.6.0),
   tidygate,
   Seurat,
   stats,
@@ -53,13 +54,15 @@ Imports:
   R.utils,
   dittoSeq,
   tidybulk,
-  tidySummarizedExperiment,
   glue,
-  SeuratWrappers
+  SeuratWrappers,
+  scater,
+  batchelor
 Suggests:
     knitr,
     rmarkdown,
     pkgdown
+Biarch: true
 URL: https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop
 BugReports: https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/issues/new/choose
 VignetteBuilder: knitr
