@@ -16,7 +16,7 @@ library(colorspace)
 library(dittoSeq)
 library(tidyseurat)
 
-seurat_obj <- RMedicine2023tidytranscriptomics::seurat_obj
+seurat_obj <- TidyGenomicsTranscriptomicsWorkshop::seurat_obj
 ```
 
 ## Question 1

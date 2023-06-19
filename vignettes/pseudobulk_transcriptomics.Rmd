@@ -83,7 +83,7 @@ library(tidySummarizedExperiment)
 
 ```{r pseudobulk}
 pseudo_bulk <-
-	seurat_obj |>
+	TidyGenomicsTranscriptomicsWorkshop::seurat_obj |>
 	aggregate_cells(c(sample, cell_type), assays = "RNA") |>
   as_SummarizedExperiment(.sample, .feature, RNA)
 ```
