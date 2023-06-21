@@ -1,8 +1,8 @@
-# TidyGenomicsTranscriptomicsWorkshop
+# tidyomicsWorkshop
 
 <!-- badges: start -->
 [![DOI](https://zenodo.org/badge/379767139.svg)](https://zenodo.org/badge/latestdoi/379767139)
-[![.github/workflows/basic_checks.yaml](https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/workflows/.github/workflows/basic_checks.yaml/badge.svg)](https://github.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/actions) 	
+[![.github/workflows/basic_checks.yaml](https://github.com/tidybiology/tidyomicsWorkshop/workflows/.github/workflows/basic_checks.yaml/badge.svg)](https://github.com/tidybiology/tidyomicsWorkshop/actions) 	
 <!-- badges: end -->
 
 <p float="left">
@@ -16,13 +16,13 @@
 
 ## Syllabus
 
-Material [web page](https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/).
+Material [web page](https://tidybiology.github.io/tidyomicsWorkshop/).
 
 More details on the workshop are below.
 
 ## Workshop package installation 
 
-If you want to install the packages and material post-workshop, the instructions are below. The workshop is designed for R `4.2` and Bioconductor 3.16.
+If you want to install the packages and material post-workshop, the instructions are below. The workshop is designed for R `4.3` and Bioconductor 3.17.
 
 ```
 #install.packages('remotes')
@@ -39,14 +39,14 @@ BiocManager::install("satijalab/seurat-wrappers")
           
 # Install workshop package
 
-remotes::install_github("tidy-biology/TidyGenomicsTranscriptomicsWorkshop", build_vignettes = TRUE)
+remotes::install_github("tidybiology/tidyomicsWorkshop", build_vignettes = TRUE)
 
 # To view vignettes
-library(TidyGenomicsTranscriptomicsWorkshop)
-browseVignettes("TidyGenomicsTranscriptomicsWorkshop")
+library(tidyomicsWorkshop)
+browseVignettes("tidyomicsWorkshop")
 ```
 
-To run the code, you could then copy and paste the code from the workshop vignette or [R markdown file](https://raw.githubusercontent.com/tidy-biology/TidyGenomicsTranscriptomicsWorkshop/master/vignettes/tidytranscriptomics.Rmd) into a new R Markdown file on your computer.
+To run the code, you could then copy and paste the code from the workshop vignette or [R markdown file](https://raw.githubusercontent.com/tidybiology/tidyomicsWorkshop/master/vignettes/tidytranscriptomics.Rmd) into a new R Markdown file on your computer.
 
 ## Workshop Description
 
@@ -62,7 +62,7 @@ This can be achieved with the integration of packages present in the R CRAN and 
 
 ### Workshop Participation
 
-The workshop format is a 3 hour session consisting of hands-on demos, exercises and Q&A.
+The workshop format is a 45 minute session consisting of hands-on demos, exercises and Q&A.
 
 ### _R_ / _Bioconductor_ packages used
 
