@@ -3,7 +3,7 @@
 \docType{data}
 \name{sce_obj}
 \alias{sce_obj}
-\title{"sce_obj"}
+\title{sce_obj}
 \format{
 A sce object.
 }
