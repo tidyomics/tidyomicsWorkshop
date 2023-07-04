@@ -29,8 +29,8 @@ Remotes:
 Imports:
   SummarizedExperiment, 
   SingleCellExperiment,
-  tidySummarizedExperiment (>= 1.9.6),
-  tidySingleCellExperiment (>= 1.11.1),
+  tidySummarizedExperiment,
+  tidySingleCellExperiment,
   tidygate,
   stats,
   utils,
