@@ -20,7 +20,7 @@ library(colorspace)
 library(dittoSeq)
 library(tidyseurat)
 
-seurat_obj <- TidyGenomicsTranscriptomicsWorkshop::seurat_obj
+seurat_obj <- tidyomicsWorkshop::seurat_obj
 ```
 
 ## Question 1

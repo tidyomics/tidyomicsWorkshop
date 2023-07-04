@@ -1,6 +1,6 @@
 Package: tidyomicsWorkshop
 Title: Tidy genomic and transcriptomic analyses 
-Version: 0.16.1
+Version: 0.16.2
 Authors@R: 
     c(
     person(given = "Stefano",
