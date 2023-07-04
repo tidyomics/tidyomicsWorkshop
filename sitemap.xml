@@ -13,7 +13,19 @@
     <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles/workshop_example.html</loc>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles/pseudobulk_transcriptomics.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles/single_cell_bioconductor_transcriptomics.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles/single_cell_seurat_transcriptomics.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles/solutions_transcriptomics.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles/supplementary_transcriptomics.html</loc>
   </url>
   <url>
     <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/authors.html</loc>
@@ -22,6 +34,21 @@
     <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/index.html</loc>
   </url>
   <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/reference/gate_sce_obj.html</loc>
+  </url>
+  <url>
     <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/reference/pseudo_bulk.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/reference/sce_obj.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/reference/sce_obj_UMAP3.html</loc>
+  </url>
+  <url>
+    <loc>https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/reference/theme_multipanel.html</loc>
   </url>
 </urlset>

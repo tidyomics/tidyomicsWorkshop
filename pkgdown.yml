@@ -1,9 +1,13 @@
-pandoc: 2.19.2
+pandoc: 3.1.1
 pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
-  workshop_example: workshop_example.html
-last_built: 2023-06-15T10:08Z
+  pseudobulk_transcriptomics: pseudobulk_transcriptomics.html
+  single_cell_bioconductor_transcriptomics: single_cell_bioconductor_transcriptomics.html
+  single_cell_seurat_transcriptomics: single_cell_seurat_transcriptomics.html
+  solutions_transcriptomics: solutions_transcriptomics.html
+  supplementary_transcriptomics: supplementary_transcriptomics.html
+last_built: 2023-07-04T14:30Z
 urls:
   reference: https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/reference
   article: https://tidy-biology.github.io/TidyGenomicsTranscriptomicsWorkshop/articles
