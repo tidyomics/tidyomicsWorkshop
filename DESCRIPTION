@@ -31,9 +31,7 @@ Imports:
   SingleCellExperiment,
   tidySummarizedExperiment (>= 1.9.6),
   tidySingleCellExperiment (>= 1.11.1),
-  tidyseurat (>= 0.6.0),
   tidygate,
-  Seurat,
   stats,
   utils,
   tibble,
@@ -55,7 +53,6 @@ Imports:
   dittoSeq,
   tidybulk,
   glue,
-  SeuratWrappers,
   scater,
   batchelor
 Suggests:
