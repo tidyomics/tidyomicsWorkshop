@@ -1,6 +1,6 @@
 Package: tidyomicsWorkshop
 Title: Tidy genomic and transcriptomic analyses 
-Version: 0.16.2
+Version: 0.16.3
 Authors@R: 
     c(
     person(given = "Stefano",
@@ -31,6 +31,7 @@ Imports:
     tidySummarizedExperiment,
     tidySingleCellExperiment,
     tidygate,
+    tidyseurat,
     stats,
     utils,
     tibble,
@@ -52,6 +53,7 @@ Imports:
     dittoSeq,
     tidybulk,
     glue,
+    SeuratWrappers,
     scater,
     batchelor
 Suggests:
