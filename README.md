@@ -1,6 +1,6 @@
 # tidyomicsWorkshop
 
-<!-- badges: start -->
+<!-- badges: start --> 
 [![DOI](https://zenodo.org/badge/379767139.svg)](https://zenodo.org/badge/latestdoi/379767139)
 [![.github/workflows/basic_checks.yaml](https://github.com/tidybiology/tidyomicsWorkshop/workflows/.github/workflows/basic_checks.yaml/badge.svg)](https://github.com/tidybiology/tidyomicsWorkshop/actions) 	
 <!-- badges: end -->
