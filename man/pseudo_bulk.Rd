@@ -5,16 +5,17 @@
 \alias{pseudo_bulk}
 \title{pseudo_bulk}
 \format{
-A SummarizedExperiment object.
+A \code{SummarizedExperiment} object.
 }
 \usage{
 data(pseudo_bulk)
 }
 \description{
-This object was saved only because leading to a strange failure of the github action,
-while working perfectly in the local environment
+A \code{SummarizedExperiment} object containing pseudo-bulk RNA sequencing data.
 }
 \details{
-A SummarizedExperiment object
+This object was created for benchmarking purposes, representing a pseudo-bulk aggregation
+of single-cell data, saved due to a specific issue with GitHub actions while functioning
+correctly in local environments.
 }
 \keyword{datasets}

@@ -2,7 +2,7 @@
 title: "Tidy Transcriptomics for Single-cell RNA Sequencing Analyses with Seurat"
 author:
   - Maria Doyle, Peter MacCallum Cancer Centre^[<maria.doyle at petermac.org>]
-  - Stefano Mangiola, Walter and Eliza Hall Institute^[<mangiola.s at wehi.edu.au>]
+  - Stefano Mangiola, South Australian immunoGENomics Cancer Institute^[<mangiola.stefano@adelaide.edu.au>], Walter and Eliza Hall Institute^[<mangiola.s at wehi.edu.au>]
 output: rmarkdown::html_vignette
 bibliography: "`r file.path(system.file(package='tidyomicsWorkshop', 'vignettes'), 'tidytranscriptomics.bib')`"
 vignette: >

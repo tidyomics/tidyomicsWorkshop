@@ -5,12 +5,16 @@
 \alias{sce_obj_UMAP3}
 \title{sce_obj_UMAP3}
 \format{
-A sce object.
+A \code{SingleCellExperiment} object.
 }
 \usage{
 data(sce_obj_UMAP3)
 }
 \description{
-A sce dataset of single cell RNA sequencing data with 3 UMAP dimesions
+A \code{SingleCellExperiment} dataset of single-cell RNA sequencing data with 3 UMAP dimensions.
+}
+\details{
+This SCE object contains three-dimensional UMAP embeddings, which allow visualization
+of cell populations in reduced-dimensional space.
 }
 \keyword{datasets}

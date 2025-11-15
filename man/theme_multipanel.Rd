@@ -5,12 +5,16 @@
 \alias{theme_multipanel}
 \title{theme_multipanel}
 \format{
-theme
+A \code{ggplot2} theme.
 }
 \usage{
 data(theme_multipanel)
 }
 \description{
-A file holding a theme object.
+A ggplot2 theme object designed for creating multipanel plots.
+}
+\details{
+This theme can be applied to ggplot2-based visualizations to standardize the look and feel
+of multipanel figures, ensuring consistency across plots.
 }
 \keyword{datasets}

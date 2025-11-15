@@ -5,12 +5,16 @@
 \alias{gate_seurat_obj}
 \title{gate_seurat_obj}
 \format{
-A list containing x,y coordinates for one gate
+A list containing x, y coordinates for one gate.
 }
 \usage{
 data(gate_seurat_obj)
 }
 \description{
-Coordinates for a gate interactively drawn using tidygate
+Coordinates for a gate interactively drawn using \code{tidygate} on a Seurat object.
+}
+\details{
+These x, y coordinates represent a manually defined gate used to subset specific populations
+from a Seurat object.
 }
 \keyword{datasets}

@@ -32,6 +32,7 @@ seurat_obj |>
 
   join_features(
     features = c("CD3D", "TRDC", "TRGC1", "TRGC2", "CD8A", "CD8B" ), shape = "wide"
+
   ) |>
 
   mutate(signature_score =
@@ -39,10 +40,9 @@ seurat_obj |>
            scales::rescale(CD8A + CD8B, to=c(0,1))
   ) |>
 
-  mutate(gate = gate_int(
-    UMAP_1, UMAP_2,
-    .size = 0.1,
-    .color =signature_score
+  mutate(gate = gate(x= UMAP_1, y=UMAP_2, 
+    size = 0.1, 
+    colour = signature_score
   ))
 
 ```
@@ -62,11 +62,10 @@ seurat_obj |>
            scales::rescale(CD8A + CD8B, to=c(0,1))
   ) |>
 
-  mutate(gate = gate_int(
-    UMAP_1, UMAP_2,
-    .size = 0.1,
-    .color =signature_score,
-    gate_list = tidyomicsWorkshop::gate_seurat_obj
+  mutate(gate = gate(x= UMAP_1, y=UMAP_2, 
+    size = 0.1, 
+    colour = signature_score,
+    programmatic_gates  = tidyomicsWorkshop::gate_seurat_obj
   ))
 
 ```
@@ -88,7 +87,17 @@ seurat_obj_gamma_delta <-
            scales::rescale(CD8A + CD8B, to=c(0,1))
   ) |>
 
-  mutate(gate = gate_int(UMAP_1, UMAP_2, gate_list = tidyomicsWorkshop::gate_seurat_obj)) |>
+  mutate(gate = gate(UMAP_1, UMAP_2, programmatic_gates = tidyomicsWorkshop::gate_seurat_obj)) |>
 
   filter(gate == 1)
+```
+
+## CuratedAtlasQuery
+
+We will explore the tidy interface for the CELLxGENE harmonised data exploration and download. Please install `CuratedAtlasQuery`
+
+```{r, eval=FALSE}
+job::job({
+  remotes::install_github("stemangiola/CuratedAtlasQueryR")
+  })
 ```

@@ -5,12 +5,16 @@
 \alias{seurat_obj}
 \title{seurat_obj}
 \format{
-A Seurat object.
+A \code{Seurat} object.
 }
 \usage{
 data(seurat_obj)
 }
 \description{
-A Seurat dataset of single cell RNA sequencing data
+A Seurat dataset containing single-cell RNA sequencing data.
+}
+\details{
+This Seurat object contains pre-processed single-cell RNA-seq data that can be used
+for downstream analysis such as clustering, differential expression, and visualization.
 }
 \keyword{datasets}

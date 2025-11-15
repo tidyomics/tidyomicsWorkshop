@@ -5,12 +5,16 @@
 \alias{sce_obj}
 \title{sce_obj}
 \format{
-A sce object.
+A \code{SingleCellExperiment} object.
 }
 \usage{
 data(sce_obj)
 }
 \description{
-A sce dataset of single cell RNA sequencing data
+A \code{SingleCellExperiment} dataset containing single-cell RNA sequencing data.
+}
+\details{
+This SingleCellExperiment (SCE) object contains pre-processed single-cell RNA-seq data
+ready for downstream analysis, such as clustering or differential expression analysis.
 }
 \keyword{datasets}

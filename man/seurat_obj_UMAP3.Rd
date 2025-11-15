@@ -5,12 +5,16 @@
 \alias{seurat_obj_UMAP3}
 \title{seurat_obj_UMAP3}
 \format{
-A Seurat object.
+A \code{Seurat} object.
 }
 \usage{
 data(seurat_obj_UMAP3)
 }
 \description{
-A Seurat dataset of single cell RNA sequencing data with 3 UMAP dimesions
+A Seurat dataset of single-cell RNA sequencing data with 3 UMAP dimensions.
+}
+\details{
+This Seurat object contains three-dimensional UMAP embeddings for visualizing cell populations
+in a reduced-dimensional space.
 }
 \keyword{datasets}
